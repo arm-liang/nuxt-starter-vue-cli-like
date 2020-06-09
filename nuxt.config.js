@@ -110,7 +110,7 @@ export default {
       plugins: [
         ['component',
           {
-            // 动态导入scss样式，然后直接修改源码实现换主题，修改的样式在 assets/element-variables.scss 有声明
+            // 动态导入scss样式，然后直接修改源码实现换主题，修改的样式在 /element-variables.scss 有声明
             libraryName: 'element-ui',
             libDir: 'packages',
             styleLibraryName: 'theme-chalk/src',
