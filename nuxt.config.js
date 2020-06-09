@@ -135,7 +135,7 @@ export default {
             name: 'chunk-libs',
             test: /[\\/]node_modules[\\/]/,
             priority: 10,
-            chunks: 'initial' // only package third parties that are initially dependent
+            chunks: 'initial'
           },
           'element-ui': {
             test: /[\\/]node_modules[\\/]element-ui/,
@@ -143,7 +143,7 @@ export default {
           },
           common: {
             test: resolve('components'),
-            minChunks: 3, //  minimum common number
+            minChunks: 3,
             priority: 5,
             reuseExistingChunk: true
           }
