@@ -1,0 +1,13 @@
+/**
+覆盖element-ui默认的主题颜色
+!! 如果使用npm重新安装项目依赖之后记得重新修改源代码样式
+!! 这里我们直接修改了 element-ui/theme-chalk/src/common/var.scss 源代码
+!! 替换内容如下所示
+!! 本文件不作为项目文件引用，只是标识做出了那些修改
+ */
+$--color-primary: #FF6400;
+$--color-success: #009966;
+$--color-warning: #FF9900;
+$--color-danger: #FF0033;
+$--color-info: #585B60;
+$--color-text-placeholder: #002C85;
